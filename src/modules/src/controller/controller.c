@@ -63,11 +63,11 @@ void controllerInit(ControllerType controller) {
     #define CONTROLLER ControllerTypeAutoSelect
   #endif
 
-  ControllerType forcedController = CONTROLLER;
-  if (forcedController != ControllerTypeAutoSelect) {
-    DEBUG_PRINT("Controller type forced\n");
-    currentController = forcedController;
-  }
+  //ControllerType forcedController = CONTROLLER;
+  //if (forcedController != ControllerTypeAutoSelect) {
+  //  DEBUG_PRINT("Controller type forced\n");
+  //  currentController = forcedController;
+  // }
 
   initController();
 

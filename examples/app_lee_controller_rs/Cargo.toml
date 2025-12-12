@@ -1,0 +1,12 @@
+[package]
+name = "cflee"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+panic-halt = "1.0.0"
+libm = "0.2"
+
